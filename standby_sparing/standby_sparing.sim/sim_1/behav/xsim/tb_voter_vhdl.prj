@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../master_sve/DSONG/fir_otporan/fir_filtar.srcs/sources_1/new/util_pkg.vhd" \
+"../../../../standby_sparing.srcs/sources_1/new/voter.vhd" \
+"../../../../standby_sparing.srcs/sim_1/new/tb_voter.vhd" \
+
+# Do not sort compile order
+nosort

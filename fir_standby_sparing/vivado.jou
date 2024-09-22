@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Sep 20 19:52:07 2024
+# Process ID: 14888
+# Current directory: C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11864 C:\Users\Dusan\Desktop\master_sve\GITHAB\DSONG\fir_standby_sparing\fir_filtar.xpr
+# Log file: C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/vivado.log
+# Journal file: C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_filtar.xpr
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg
+source fir_tb.tcl
+run 100 us
+save_wave_config {C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg
+source fir_tb.tcl
+run all
+save_wave_config {C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg
+source fir_tb.tcl
+run all
+save_wave_config {C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg
+source fir_tb.tcl
+restart
+run all
+restart
+run all
+restart
+run all
+save_wave_config {C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg
+source fir_tb.tcl
+run all
+save_wave_config {C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_standby_sparing/fir_tb_behav.wcfg}
+close_sim

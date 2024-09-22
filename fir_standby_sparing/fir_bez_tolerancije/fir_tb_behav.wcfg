@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fir_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fir_tb" />
+            <top_module name="txt_util" />
+            <top_module name="util_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="62460001fs"></ZoomEndTime>
+      <Cursor1Time time="29344844fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="89"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/fir_tb/clk_i_s" type="logic">
+      <obj_property name="ElementShortName">clk_i_s</obj_property>
+      <obj_property name="ObjectShortName">clk_i_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/rst_s" type="logic">
+      <obj_property name="ElementShortName">rst_s</obj_property>
+      <obj_property name="ObjectShortName">rst_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/en_1_s" type="logic">
+      <obj_property name="ElementShortName">en_1_s</obj_property>
+      <obj_property name="ObjectShortName">en_1_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/addr_1_s" type="array">
+      <obj_property name="ElementShortName">addr_1_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_1_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[16:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/start_s" type="logic">
+      <obj_property name="ElementShortName">start_s</obj_property>
+      <obj_property name="ObjectShortName">start_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/fir_en_o" type="logic">
+      <obj_property name="ElementShortName">fir_en_o</obj_property>
+      <obj_property name="ObjectShortName">fir_en_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/fir_data_o" type="array">
+      <obj_property name="ElementShortName">fir_data_o[16:0]</obj_property>
+      <obj_property name="ObjectShortName">fir_data_o[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/state_reg" type="other">
+      <obj_property name="ElementShortName">state_reg</obj_property>
+      <obj_property name="ObjectShortName">state_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/input_block_ram/dout_b" type="array">
+      <obj_property name="ElementShortName">dout_b[16:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_b[16:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-0.020000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.020000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/en_2" type="logic">
+      <obj_property name="ElementShortName">en_2</obj_property>
+      <obj_property name="ObjectShortName">en_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/addr_2_s" type="array">
+      <obj_property name="ElementShortName">addr_2_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_2_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[16:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="AnalogYRangeMin">-0.020000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.020000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/ready_s" type="logic">
+      <obj_property name="ElementShortName">ready_s</obj_property>
+      <obj_property name="ObjectShortName">ready_s</obj_property>
+   </wvobject>
+</wave_config>

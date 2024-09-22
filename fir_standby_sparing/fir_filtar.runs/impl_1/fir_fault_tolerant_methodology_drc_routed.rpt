@@ -1,0 +1,1107 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat Sep 21 15:07:32 2024
+| Host         : DESKTOP-QI02RAP running 64-bit major release  (build 9200)
+| Command      : report_methodology -file fir_fault_tolerant_methodology_drc_routed.rpt -pb fir_fault_tolerant_methodology_drc_routed.pb -rpx fir_fault_tolerant_methodology_drc_routed.rpx
+| Design       : fir_fault_tolerant
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 214
++-----------+----------+--------------------------------------------+------------+
+| Rule      | Severity | Description                                | Violations |
++-----------+----------+--------------------------------------------+------------+
+| SYNTH-6   | Warning  | Timing of a RAM block might be sub-optimal | 26         |
+| TIMING-18 | Warning  | Missing input or output delay              | 92         |
+| TIMING-20 | Warning  | Non-clocked latch                          | 96         |
++-----------+----------+--------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-6#1 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[0].uut_fir_filter/input_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#2 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[0].uut_fir_filter/output_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#3 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[0].uut_fir_filter/output_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#4 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[1].uut_fir_filter/input_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#5 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[1].uut_fir_filter/input_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#6 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[1].uut_fir_filter/output_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#7 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[1].uut_fir_filter/output_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#8 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[2].uut_fir_filter/input_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#9 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[2].uut_fir_filter/output_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#10 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[2].uut_fir_filter/output_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#11 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[3].uut_fir_filter/input_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#12 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[3].uut_fir_filter/input_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#13 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[3].uut_fir_filter/output_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#14 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[3].uut_fir_filter/output_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#15 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[4].uut_fir_filter/input_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#16 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[4].uut_fir_filter/output_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#17 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[4].uut_fir_filter/output_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#18 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[5].uut_fir_filter/input_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#19 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[5].uut_fir_filter/output_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#20 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[5].uut_fir_filter/output_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#21 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[6].uut_fir_filter/input_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#22 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[6].uut_fir_filter/output_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#23 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[6].uut_fir_filter/output_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#24 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[7].uut_fir_filter/input_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#25 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[7].uut_fir_filter/output_block_ram/memory_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#26 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance redundant_fir_filtars[7].uut_fir_filter/output_block_ram/memory_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[10] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[11] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on addr_1[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[10] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[11] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An input delay is missing on addr_2[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An input delay is missing on coef_addr_i[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An input delay is missing on coef_addr_i[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An input delay is missing on coef_addr_i[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[10] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[11] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[12] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[13] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[14] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[15] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[16] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#36 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#37 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#38 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#39 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#40 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#41 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#42 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#43 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#44 Warning
+Missing input or output delay  
+An input delay is missing on coef_i[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#45 Warning
+Missing input or output delay  
+An input delay is missing on data_i[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#46 Warning
+Missing input or output delay  
+An input delay is missing on data_i[10] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#47 Warning
+Missing input or output delay  
+An input delay is missing on data_i[11] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#48 Warning
+Missing input or output delay  
+An input delay is missing on data_i[12] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#49 Warning
+Missing input or output delay  
+An input delay is missing on data_i[13] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#50 Warning
+Missing input or output delay  
+An input delay is missing on data_i[14] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#51 Warning
+Missing input or output delay  
+An input delay is missing on data_i[15] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#52 Warning
+Missing input or output delay  
+An input delay is missing on data_i[16] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#53 Warning
+Missing input or output delay  
+An input delay is missing on data_i[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#54 Warning
+Missing input or output delay  
+An input delay is missing on data_i[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#55 Warning
+Missing input or output delay  
+An input delay is missing on data_i[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#56 Warning
+Missing input or output delay  
+An input delay is missing on data_i[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#57 Warning
+Missing input or output delay  
+An input delay is missing on data_i[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#58 Warning
+Missing input or output delay  
+An input delay is missing on data_i[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#59 Warning
+Missing input or output delay  
+An input delay is missing on data_i[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#60 Warning
+Missing input or output delay  
+An input delay is missing on data_i[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#61 Warning
+Missing input or output delay  
+An input delay is missing on data_i[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#62 Warning
+Missing input or output delay  
+An input delay is missing on en_1 relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#63 Warning
+Missing input or output delay  
+An input delay is missing on en_2 relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#64 Warning
+Missing input or output delay  
+An input delay is missing on rst_i relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#65 Warning
+Missing input or output delay  
+An input delay is missing on start relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#66 Warning
+Missing input or output delay  
+An input delay is missing on we_i relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#67 Warning
+Missing input or output delay  
+An output delay is missing on data_o[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#68 Warning
+Missing input or output delay  
+An output delay is missing on data_o[10] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#69 Warning
+Missing input or output delay  
+An output delay is missing on data_o[11] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#70 Warning
+Missing input or output delay  
+An output delay is missing on data_o[12] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#71 Warning
+Missing input or output delay  
+An output delay is missing on data_o[13] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#72 Warning
+Missing input or output delay  
+An output delay is missing on data_o[14] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#73 Warning
+Missing input or output delay  
+An output delay is missing on data_o[15] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#74 Warning
+Missing input or output delay  
+An output delay is missing on data_o[16] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#75 Warning
+Missing input or output delay  
+An output delay is missing on data_o[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#76 Warning
+Missing input or output delay  
+An output delay is missing on data_o[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#77 Warning
+Missing input or output delay  
+An output delay is missing on data_o[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#78 Warning
+Missing input or output delay  
+An output delay is missing on data_o[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#79 Warning
+Missing input or output delay  
+An output delay is missing on data_o[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#80 Warning
+Missing input or output delay  
+An output delay is missing on data_o[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#81 Warning
+Missing input or output delay  
+An output delay is missing on data_o[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#82 Warning
+Missing input or output delay  
+An output delay is missing on data_o[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#83 Warning
+Missing input or output delay  
+An output delay is missing on data_o[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#84 Warning
+Missing input or output delay  
+An output delay is missing on error_o relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#85 Warning
+Missing input or output delay  
+An output delay is missing on ready[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#86 Warning
+Missing input or output delay  
+An output delay is missing on ready[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#87 Warning
+Missing input or output delay  
+An output delay is missing on ready[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#88 Warning
+Missing input or output delay  
+An output delay is missing on ready[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#89 Warning
+Missing input or output delay  
+An output delay is missing on ready[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#90 Warning
+Missing input or output delay  
+An output delay is missing on ready[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#91 Warning
+Missing input or output delay  
+An output delay is missing on ready[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#92 Warning
+Missing input or output delay  
+An output delay is missing on ready[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[0] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[10] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[11] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[1] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[2] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[3] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[4] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[5] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[6] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[7] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[8] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[9] cannot be properly analyzed as its control pin redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[0] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[10] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[11] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[1] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[2] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[3] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[4] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[5] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[6] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[7] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[8] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[9] cannot be properly analyzed as its control pin redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[0] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[10] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[11] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[1] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[2] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[3] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[4] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[5] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[6] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[7] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[8] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[9] cannot be properly analyzed as its control pin redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[0] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[10] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[11] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[1] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[2] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[3] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[4] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[5] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[6] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[7] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[8] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[9] cannot be properly analyzed as its control pin redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[0] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[10] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[11] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[1] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[2] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[3] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[4] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[5] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[6] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[7] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[8] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[9] cannot be properly analyzed as its control pin redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[0] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[10] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[11] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[1] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[2] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[3] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[4] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[5] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#69 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[6] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#70 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[7] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#71 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[8] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#72 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[9] cannot be properly analyzed as its control pin redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#73 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[0] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#74 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[10] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#75 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[11] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#76 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[1] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#77 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[2] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#78 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[3] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#79 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[4] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#80 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[5] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#81 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[6] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#82 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[7] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#83 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[8] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#84 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[9] cannot be properly analyzed as its control pin redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#85 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[0] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#86 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[10] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#87 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[11] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#88 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[1] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#89 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[2] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#90 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[3] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#91 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[4] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#92 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[5] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#93 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[6] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#94 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[7] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#95 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[8] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#96 Warning
+Non-clocked latch  
+The latch redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[9] cannot be properly analyzed as its control pin redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+

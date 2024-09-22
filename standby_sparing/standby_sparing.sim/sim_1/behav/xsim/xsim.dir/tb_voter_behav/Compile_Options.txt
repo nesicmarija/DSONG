@@ -1,0 +1,1 @@
+-wto "e36386034e3a49f59e9a122bc117cd65" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_voter_behav" "xil_defaultlib.tb_voter" -log "elaborate.log" 

@@ -1,0 +1,92 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat Sep 21 15:07:00 2024
+| Host         : DESKTOP-QI02RAP running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file fir_fault_tolerant_control_sets_placed.rpt
+| Design       : fir_fault_tolerant
+| Device       : xc7z010
+-----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    14 |
+|    Minimum number of control sets                        |    14 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    69 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    14 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     8 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              96 |           33 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             278 |          102 |
+| Yes          | No                    | No                     |              85 |           21 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------------------------+-------------------------------------------------------------+------------------+------------------+----------------+--------------+
+|                        Clock Signal                        |                        Enable Signal                        | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------------------------------+-------------------------------------------------------------+------------------+------------------+----------------+--------------+
+|  redundant_fir_filtars[6].uut_fir_filter/fir_addr_i_nxt__0 |                                                             |                  |                5 |             12 |         2.40 |
+|  redundant_fir_filtars[5].uut_fir_filter/fir_addr_i_nxt__0 |                                                             |                  |                4 |             12 |         3.00 |
+|  redundant_fir_filtars[2].uut_fir_filter/fir_addr_i_nxt__0 |                                                             |                  |                4 |             12 |         3.00 |
+|  redundant_fir_filtars[7].uut_fir_filter/fir_addr_i_nxt__0 |                                                             |                  |                5 |             12 |         2.40 |
+|  redundant_fir_filtars[3].uut_fir_filter/fir_addr_i_nxt__0 |                                                             |                  |                3 |             12 |         4.00 |
+|  redundant_fir_filtars[1].uut_fir_filter/fir_addr_i_nxt__0 |                                                             |                  |                4 |             12 |         3.00 |
+|  redundant_fir_filtars[0].uut_fir_filter/fir_addr_i_nxt__0 |                                                             |                  |                4 |             12 |         3.00 |
+|  redundant_fir_filtars[4].uut_fir_filter/fir_addr_i_nxt__0 |                                                             |                  |                4 |             12 |         3.00 |
+|  clk_i                                                     | redundant_fir_filtars[7].uut_fir_filter/fir_filtar/b_s[1]_5 |                  |                4 |             17 |         4.25 |
+|  clk_i                                                     | redundant_fir_filtars[7].uut_fir_filter/fir_filtar/b_s[2]_6 |                  |                4 |             17 |         4.25 |
+|  clk_i                                                     | redundant_fir_filtars[7].uut_fir_filter/fir_filtar/b_s[4]_8 |                  |                4 |             17 |         4.25 |
+|  clk_i                                                     | redundant_fir_filtars[7].uut_fir_filter/fir_filtar/b_s[3]_7 |                  |                4 |             17 |         4.25 |
+|  clk_i                                                     | redundant_fir_filtars[7].uut_fir_filter/fir_filtar/b_s[0]_4 |                  |                5 |             17 |         3.40 |
+|  clk_i                                                     |                                                             | rst_i            |              102 |            278 |         2.73 |
++------------------------------------------------------------+-------------------------------------------------------------+------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,8 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Failure: verification done!
+Time: 62460 ns  Iteration: 1  Process: /fir_tb/stim_process  File: C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd
+$finish called at time : 62460 ns : File "C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd" Line 153
+Failure: verification done!
+Time: 62460 ns  Iteration: 1  Process: /fir_tb/stim_process  File: C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd
+$finish called at time : 62460 ns : File "C:/Users/Dusan/Desktop/master_sve/GITHAB/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd" Line 153

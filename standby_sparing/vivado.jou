@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Sep 18 17:34:29 2024
+# Process ID: 2200
+# Current directory: C:/Users/Dusan/Desktop/standby_sparing
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15680 C:\Users\Dusan\Desktop\standby_sparing\standby_sparing.xpr
+# Log file: C:/Users/Dusan/Desktop/standby_sparing/vivado.log
+# Journal file: C:/Users/Dusan/Desktop/standby_sparing\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.srcs/sources_1/new/voter_wrapper.vhd w ]
+add_files C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.srcs/sources_1/new/voter_wrapper.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+open_project C:/Users/Dusan/Desktop/master_sve/DSONG/fir_bez_toleranicje/fir_filtar.xpr
+current_project standby_sparing
+file mkdir C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.srcs/constrs_1
+file mkdir C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.srcs/constrs_1/new
+close [ open C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.srcs/constrs_1/new/clk_constraint.xdc w ]
+add_files -fileset constrs_1 C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.srcs/constrs_1/new/clk_constraint.xdc
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+current_project fir_filtar
+current_project standby_sparing
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value {-mode Out_of_context} -objects [get_runs synth_1]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+save_wave_config {C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg}
+close_sim
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+current_project fir_filtar
+close_project

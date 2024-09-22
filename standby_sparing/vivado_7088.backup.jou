@@ -1,0 +1,116 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Sep 15 13:57:19 2024
+# Process ID: 7088
+# Current directory: C:/Users/Dusan/Desktop/standby_sparing
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11760 C:\Users\Dusan\Desktop\standby_sparing\standby_sparing.xpr
+# Log file: C:/Users/Dusan/Desktop/standby_sparing/vivado.log
+# Journal file: C:/Users/Dusan/Desktop/standby_sparing\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.srcs/sim_1/new/tb_voter.vhd w ]
+add_files -fileset sim_1 C:/Users/Dusan/Desktop/standby_sparing/standby_sparing.srcs/sim_1/new/tb_voter.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_voter.tcl
+restart
+run 83 us
+save_wave_config {C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+set_property xsim.view C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+restart
+run 20 us
+save_wave_config {C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+run 10 us
+restart
+run 10 us
+restart
+run 1 us
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+restart
+run 0.5 us
+restart
+run 0.5 us
+save_wave_config {C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+restart
+run 0.5 us
+save_wave_config {C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+run 0.5 us
+restart
+run 0.5 us
+run 0.5 us
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/standby_sparing/tb_voter_behav.wcfg
+source tb_voter.tcl
+run 0.5 us
+close_sim
